@@ -1,0 +1,141 @@
+body {
+    margin: 10px 10px 10px 10px;
+}
+
+.horizon {
+    float: left;
+}
+
+.Elevator {
+    box-sizing: border-box;
+    width: 220px;
+    height: 600px;
+    overflow: auto;
+    background-color: gray;
+    position: relative;
+    top: 100px;
+    margin: 5px;
+}
+
+.pane {
+    float: left;
+}
+
+.leftpanel {
+    width: 42.5px;
+    height: 600px;
+}
+
+.FloorNo {
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 32.5px;
+    height: 29px;
+    text-align: center;
+}
+
+.leftdoor {
+    position: absolute;
+    bottom: 0px;
+    left: 33px;
+    background-color: pink;
+    width: 50px;
+    height: 30px;
+}
+
+.rightdoor {
+    position: absolute;
+    background-color: pink;
+    bottom: 0px;
+    left: 86px;
+    width: 50px;
+    height: 30px;
+}
+
+.rightpanel {
+    background-color: rgb(0, 110, 255);
+    width: 84px;
+    height: 600px;
+    position: relative;
+    left: 93px;
+}
+
+.button {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    position: relative;
+    margin: 2px;
+    left: 2.5px;
+}
+
+.screen {
+    background-color: rgb(10, 215, 230);
+    height: 120px;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.Elevatorout {
+    height: 580px;
+}
+
+.outFloorNo {
+    height: 28px;
+    width: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: greenyellow;
+}
+
+.outContent {
+    text-align: center;
+    height: 20px;
+}
+
+.outForButton {
+    height: 570px;
+    width: 70px;
+}
+
+.outButton {
+    float: left;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    margin: 1.5px;
+    position: relative;
+    left: 10px;
+}
+
+.outButtonNull {
+    visibility: hidden;
+    float: left;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    margin: 1.5px;
+    position: relative;
+    left: 10px;
+}
+
+.outelevator {
+    box-sizing: border-box;
+    width: 110px;
+    height: 600px;
+    overflow: auto;
+    background-color: gray;
+    position: relative;
+    top: 100px;
+    margin: 5px;
+}
+
+.vis {
+    visibility: hidden;
+}
